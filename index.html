@@ -3,135 +3,262 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ArdanaSaaS - Exact Construction Design</title>
+    <title>Ardana - Jasa Pembuatan Website & Digital Marketing Profesional</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; }
-        .hero-text { line-height: 1.05; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .hero-text { line-height: 1.1; letter-spacing: -0.04em; }
     </style>
 </head>
-<body class="bg-[#FDFDFD] text-[#0A0A0A] antialiased">
+<body class="bg-[#FAFAFA] text-[#0F172A] antialiased">
 
     <!-- Header -->
-    <header class="max-w-[1400px] mx-auto px-6 py-6 flex items-center justify-between">
-        <div class="flex items-center space-x-2">
-            <div class="w-10 h-10 bg-[#2563EB] rounded-xl flex items-center justify-center text-white">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+    <header class="fixed top-0 left-0 right-0 z-[100] px-6 py-4">
+        <div class="max-w-[1400px] mx-auto glass rounded-2xl px-6 py-4 flex items-center justify-between shadow-sm">
+            <div class="flex items-center space-x-2">
+                <div class="w-9 h-9 bg-[#2563EB] rounded-lg flex items-center justify-center text-white">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+                </div>
+                <span class="text-xl font-[800] tracking-tighter">ARDANA</span>
             </div>
-            <span class="text-2xl font-extrabold tracking-tight">Ardana<span class="text-[#2563EB]">SaaS</span></span>
-        </div>
-        
-        <nav class="hidden lg:flex items-center space-x-10 text-[15px] font-semibold text-gray-500">
-            <a href="#" class="hover:text-black transition">Layanan</a>
-            <a href="#" class="hover:text-black transition">Proyek</a>
-            <a href="#" class="hover:text-black transition">Tentang Kami</a>
-            <a href="#" class="hover:text-black transition">Blog</a>
-        </nav>
+            
+            <nav class="hidden lg:flex items-center space-x-8 text-[14px] font-bold text-gray-500 uppercase tracking-wider">
+                <a href="#layanan" class="hover:text-blue-600 transition">Layanan</a>
+                <a href="#harga" class="hover:text-blue-600 transition">Harga</a>
+                <a href="#" class="hover:text-blue-600 transition">Klien</a>
+                <a href="#" class="hover:text-blue-600 transition">Blog</a>
+            </nav>
 
-        <div class="flex items-center space-x-4">
-            <button class="hidden sm:block text-[15px] font-bold text-gray-900 px-6 py-3">Login</button>
-            <button class="bg-[#0A0A0A] text-white text-[15px] font-bold px-8 py-4 rounded-full hover:bg-gray-800 transition shadow-lg">
-                Hubungi Kami
-            </button>
+            <a href="https://api.whatsapp.com/send?phone=6282224434159" class="bg-[#0F172A] text-white text-[13px] font-bold px-6 py-3 rounded-full hover:bg-blue-600 transition shadow-lg uppercase tracking-widest">
+                Konsultasi
+            </a>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="max-w-[1400px] mx-auto px-6 py-12 lg:py-20 grid lg:grid-cols-2 gap-16 items-center">
-        <!-- Content -->
-        <div class="order-2 lg:order-1">
-            <div class="inline-flex items-center px-4 py-2 rounded-full bg-blue-50 border border-blue-100 mb-8">
-                <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse mr-2"></span>
-                <span class="text-xs font-bold text-blue-700 tracking-[0.15em] uppercase">Inovasi Konstruksi 2025</span>
+    <section class="pt-40 pb-20 px-6 max-w-[1400px] mx-auto grid lg:grid-cols-2 gap-16 items-center">
+        <div class="space-y-8">
+            <div class="inline-flex items-center space-x-2 bg-blue-50 px-4 py-2 rounded-full border border-blue-100">
+                <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                <span class="text-[10px] font-black text-blue-700 uppercase tracking-[0.2em]">Top Web Agency Jakarta</span>
             </div>
-
-            <h1 class="text-6xl md:text-7xl xl:text-[88px] font-[800] hero-text tracking-[-0.04em] mb-8">
-                Membangun <br> Masa Depan <br> <span class="text-[#2563EB]">Digital.</span>
+            
+            <h1 class="text-6xl md:text-7xl xl:text-[84px] font-[800] hero-text">
+                Ubah Bisnis <br> Jadi <span class="text-blue-600">Digital</span> <br> Lebih Cepat.
             </h1>
-
-            <p class="text-lg md:text-xl text-gray-500 max-w-md leading-relaxed mb-10">
-                Optimalkan setiap tahap pembangunan dengan alat manajemen proyek tercanggih untuk kontraktor modern.
+            
+            <p class="text-xl text-gray-500 max-w-lg leading-relaxed">
+                Dorong bisnis Anda ke level berikutnya dengan Jasa Pembuatan Website dan Landing Page Profesional dengan standar desain kelas dunia.
             </p>
-
-            <div class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-8 mb-12">
-                <button class="w-full sm:w-auto bg-[#2563EB] text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 transition shadow-2xl shadow-blue-300">
+            
+            <div class="flex flex-wrap gap-4">
+                <a href="https://api.whatsapp.com/send?phone=6282224434159" class="bg-blue-600 text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 transition shadow-2xl shadow-blue-200">
                     Mulai Sekarang
-                </button>
-                <button class="flex items-center space-x-4 group">
-                    <div class="w-14 h-14 rounded-full border-2 border-gray-100 flex items-center justify-center group-hover:bg-gray-50 transition">
-                        <svg class="w-6 h-6 ml-1 text-gray-900" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                </a>
+                <div class="flex items-center space-x-3 px-6">
+                    <div class="flex -space-x-3">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=1" alt="u1">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=2" alt="u2">
+                        <img class="w-10 h-10 rounded-full border-2 border-white" src="https://i.pravatar.cc/100?u=3" alt="u3">
                     </div>
-                    <span class="font-bold text-lg">Tonton Demo</span>
-                </button>
-            </div>
-
-            <div class="flex items-center space-x-12 pt-8 border-t border-gray-100">
-                <div>
-                    <div class="text-3xl font-extrabold tracking-tight">120+</div>
-                    <div class="text-[12px] font-bold text-gray-400 uppercase tracking-widest mt-1">Proyek Aktif</div>
-                </div>
-                <div>
-                    <div class="text-3xl font-extrabold tracking-tight">98%</div>
-                    <div class="text-[12px] font-bold text-gray-400 uppercase tracking-widest mt-1">Kepuasan Klien</div>
-                </div>
-                <div>
-                    <div class="text-3xl font-extrabold tracking-tight">10+</div>
-                    <div class="text-[12px] font-bold text-gray-400 uppercase tracking-widest mt-1">Penghargaan</div>
+                    <div class="text-sm font-bold text-gray-400">500+ Client Puas</div>
                 </div>
             </div>
         </div>
 
-        <!-- Image / Visual -->
-        <div class="order-1 lg:order-2 relative">
-            <div class="relative z-10 rounded-[4rem] overflow-hidden shadow-2xl aspect-[4/5] md:aspect-square lg:aspect-[4/5]">
-                <img src="https://images.unsplash.com/photo-1541913080221-4d0036258d23?q=80&w=1474&auto=format&fit=crop" 
-                     alt="Modern Building" class="w-full h-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+        <div class="relative">
+            <div class="rounded-[3rem] overflow-hidden shadow-2xl aspect-video bg-gray-200 border-8 border-white">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" class="w-full h-full object-cover" alt="Hero Dashboard">
             </div>
-
-            <!-- Floating Card 1: Project Stats -->
-            <div class="absolute -top-6 -right-6 md:right-0 bg-white p-6 rounded-3xl shadow-2xl border border-gray-50 z-20 hidden sm:block w-[240px]">
-                <div class="flex items-center justify-between mb-4">
-                    <div class="w-10 h-10 bg-green-50 rounded-full flex items-center justify-center text-green-600">
-                        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                    </div>
-                    <span class="text-[10px] font-black text-gray-400 uppercase tracking-widest">Live Update</span>
-                </div>
-                <div class="text-sm font-bold text-gray-400 mb-1">PROGRES PROYEK</div>
-                <div class="text-3xl font-extrabold tracking-tighter">94.2% <span class="text-xs text-green-500 ml-1">▲ 12%</span></div>
+            <!-- Floating Elements -->
+            <div class="absolute -top-10 -right-10 bg-white p-6 rounded-3xl shadow-2xl border border-gray-50 hidden md:block">
+                <div class="text-blue-600 font-black text-2xl">99.9%</div>
+                <div class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Uptime Server</div>
             </div>
-
-            <!-- Floating Card 2: Team -->
-            <div class="absolute -bottom-10 -left-10 bg-white p-6 rounded-3xl shadow-2xl border border-gray-50 z-20 hidden sm:flex items-center space-x-4">
-                <div class="flex -space-x-4">
-                    <div class="w-12 h-12 rounded-full border-4 border-white bg-blue-100 overflow-hidden"><img src="https://i.pravatar.cc/150?u=1" alt="User"></div>
-                    <div class="w-12 h-12 rounded-full border-4 border-white bg-green-100 overflow-hidden"><img src="https://i.pravatar.cc/150?u=2" alt="User"></div>
-                    <div class="w-12 h-12 rounded-full border-4 border-white bg-purple-100 overflow-hidden"><img src="https://i.pravatar.cc/150?u=3" alt="User"></div>
-                    <div class="w-12 h-12 rounded-full border-4 border-white bg-gray-900 flex items-center justify-center text-white text-xs font-bold">+5</div>
-                </div>
-                <div>
-                    <div class="text-sm font-extrabold">Tim Bergabung</div>
-                    <div class="text-[10px] text-gray-400 font-bold uppercase">Baru saja</div>
-                </div>
+            <div class="absolute -bottom-10 -left-10 bg-blue-600 text-white p-8 rounded-3xl shadow-2xl hidden md:block">
+                <div class="font-bold text-sm uppercase tracking-widest opacity-80 mb-2">Penjualan Naik</div>
+                <div class="text-4xl font-black italic">+240%</div>
             </div>
-
-            <!-- Background Decoration -->
-            <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-[#2563EB] opacity-[0.03] blur-[100px] rounded-full"></div>
         </div>
     </section>
 
-    <!-- Partner Logos -->
-    <section class="max-w-[1400px] mx-auto px-6 py-20">
-        <p class="text-center text-[10px] font-black text-gray-400 uppercase tracking-[0.3em] mb-12">Dipercaya oleh Perusahaan Konstruksi Terbesar</p>
-        <div class="flex flex-wrap justify-center items-center gap-12 lg:gap-24 opacity-30 grayscale contrast-125">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Adhi_Karya_Logo.svg" alt="Adhi Karya" class="h-8">
-            <img src="https://upload.wikimedia.org/wikipedia/id/8/87/Logo_Waskita_Karya.svg" alt="Waskita" class="h-8">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Wijaya_Karya_Logo.svg" alt="WIKA" class="h-10">
-            <img src="https://upload.wikimedia.org/wikipedia/id/d/dc/Logo_PT_PP.svg" alt="PTPP" class="h-10">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Hutama_Karya.svg" alt="Hutama Karya" class="h-10">
+    <!-- Services -->
+    <section id="layanan" class="py-24 bg-white">
+        <div class="max-w-[1400px] mx-auto px-6">
+            <div class="text-center mb-20 space-y-4">
+                <h2 class="text-sm font-black text-blue-600 uppercase tracking-[0.3em]">Apa Yang Kami Lakukan</h2>
+                <p class="text-4xl md:text-5xl font-extrabold tracking-tight">Solusi Digital Terintegrasi</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-10 rounded-[2.5rem] bg-gray-50 hover:bg-blue-50 transition border border-gray-100 hover:border-blue-200 group">
+                    <div class="w-16 h-16 bg-blue-600 rounded-2xl mb-8 flex items-center justify-center text-white shadow-lg shadow-blue-100">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-[800] mb-4">Web Development</h3>
+                    <p class="text-gray-500 leading-relaxed">Website kustom berperforma tinggi dengan desain UI/UX kelas dunia.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-gray-50 hover:bg-blue-50 transition border border-gray-100 hover:border-blue-200 group">
+                    <div class="w-16 h-16 bg-green-500 rounded-2xl mb-8 flex items-center justify-center text-white shadow-lg shadow-green-100">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-[800] mb-4">SEO Optimization</h3>
+                    <p class="text-gray-500 leading-relaxed">Naikkan peringkat bisnis Anda di Google secara organik dan berkelanjutan.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-gray-50 hover:bg-blue-50 transition border border-gray-100 hover:border-blue-200 group">
+                    <div class="w-16 h-16 bg-purple-600 rounded-2xl mb-8 flex items-center justify-center text-white shadow-lg shadow-purple-100">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-[800] mb-4">Iklan ADS</h3>
+                    <p class="text-gray-500 leading-relaxed">Maksimalkan ROI Anda melalui Meta Ads, Google Ads, dan TikTok Ads.</p>
+                </div>
+                <div class="p-10 rounded-[2.5rem] bg-gray-50 hover:bg-blue-50 transition border border-gray-100 hover:border-blue-200 group">
+                    <div class="w-16 h-16 bg-orange-500 rounded-2xl mb-8 flex items-center justify-center text-white shadow-lg shadow-orange-100">
+                        <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-[800] mb-4">Mobile Apps</h3>
+                    <p class="text-gray-500 leading-relaxed">Solusi aplikasi iOS & Android untuk memperluas jangkauan pasar Anda.</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Pricing -->
+    <section id="harga" class="py-24 px-6 bg-[#0F172A] text-white">
+        <div class="max-w-[1400px] mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+                <div class="space-y-4">
+                    <h2 class="text-sm font-black text-blue-400 uppercase tracking-[0.3em]">Investasi Masa Depan</h2>
+                    <p class="text-5xl font-extrabold tracking-tight">Pilih Paket <br> Kemenangan Anda</p>
+                </div>
+                <p class="text-gray-400 max-w-sm">Dapatkan harga paket pembuatan website terbaik untuk semua kebutuhan bisnis, perusahaan, maupun pribadi Anda.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Silver -->
+                <div class="p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 transition flex flex-col">
+                    <div class="mb-8">
+                        <span class="text-blue-400 font-bold uppercase tracking-widest text-[10px]">Starter</span>
+                        <h3 class="text-2xl font-black mt-1">Silver</h3>
+                    </div>
+                    <div class="text-4xl font-black mb-6">Rp 700rb</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-10 flex-grow">
+                        <li>✓ Landing Page Sederhana</li>
+                        <li>✓ Domain & Hosting 1 Thn</li>
+                        <li>✓ Mobile Responsive</li>
+                        <li>✓ Integrasi WhatsApp</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=6282224434159" class="w-full py-4 text-center bg-white text-black rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">Pilih Paket</a>
+                </div>
+
+                <!-- Gold -->
+                <div class="p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 transition flex flex-col">
+                    <div class="mb-8">
+                        <span class="text-yellow-400 font-bold uppercase tracking-widest text-[10px]">Growth</span>
+                        <h3 class="text-2xl font-black mt-1">Gold</h3>
+                    </div>
+                    <div class="text-4xl font-black mb-6">Rp 1.6jt</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-10 flex-grow">
+                        <li>✓ Semua Fitur Silver</li>
+                        <li>✓ E-Commerce / Blog</li>
+                        <li>✓ Kelola Produk/Artikel</li>
+                        <li>✓ Email Bisnis (5 Akun)</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=6282224434159" class="w-full py-4 text-center bg-white text-black rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">Pilih Paket</a>
+                </div>
+
+                <!-- Diamond -->
+                <div class="p-8 rounded-[2rem] bg-blue-600 border border-blue-500 shadow-2xl shadow-blue-900/40 relative flex flex-col">
+                    <div class="absolute top-6 right-6 bg-white/20 px-3 py-1 rounded-full text-[10px] font-black tracking-widest">BEST SELLER</div>
+                    <div class="mb-8">
+                        <span class="text-blue-200 font-bold uppercase tracking-widest text-[10px]">Corporate</span>
+                        <h3 class="text-2xl font-black mt-1">Diamond</h3>
+                    </div>
+                    <div class="text-4xl font-black mb-6">Rp 2jt</div>
+                    <ul class="space-y-4 text-sm text-blue-100 mb-10 flex-grow">
+                        <li>✓ Semua Fitur Gold</li>
+                        <li>✓ Business Profile Pro</li>
+                        <li>✓ Galeri Proyek & Testimoni</li>
+                        <li>✓ Keamanan SSL Premium</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=6282224434159" class="w-full py-4 text-center bg-white text-black rounded-xl font-bold hover:bg-gray-100 transition">Pilih Paket</a>
+                </div>
+
+                <!-- Platinum -->
+                <div class="p-8 rounded-[2rem] bg-white/5 border border-white/10 hover:bg-white/10 transition flex flex-col">
+                    <div class="mb-8">
+                        <span class="text-purple-400 font-bold uppercase tracking-widest text-[10px]">Exclusive</span>
+                        <h3 class="text-2xl font-black mt-1">Platinum</h3>
+                    </div>
+                    <div class="text-4xl font-black mb-6">Rp 3jt</div>
+                    <ul class="space-y-4 text-sm text-gray-400 mb-10 flex-grow">
+                        <li>✓ Custom Fitur Kompleks</li>
+                        <li>✓ Desain Unik (Figma Based)</li>
+                        <li>✓ SEO Dasar + Speed Optimization</li>
+                        <li>✓ Support Prioritas 24/7</li>
+                    </ul>
+                    <a href="https://api.whatsapp.com/send?phone=6282224434159" class="w-full py-4 text-center bg-white text-black rounded-xl font-bold hover:bg-blue-600 hover:text-white transition">Pilih Paket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="py-24 px-6 bg-white">
+        <div class="max-w-[1200px] mx-auto text-center">
+            <p class="text-sm font-black text-gray-400 uppercase tracking-[0.3em] mb-12 italic">Melayani Berbagai Sektor Bisnis</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Perusahaan</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Sekolah</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Universitas</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Rumah Sakit</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Puskesmas</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Instansi Pemerintah</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Showroom Mobil</span>
+                <span class="px-6 py-3 bg-gray-50 border border-gray-100 rounded-full font-bold text-gray-600">Tour & Travel</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-100 pt-20 pb-10 px-6">
+        <div class="max-w-[1400px] mx-auto grid md:grid-cols-4 gap-12 mb-20">
+            <div class="col-span-2 space-y-6">
+                <div class="flex items-center space-x-2">
+                    <div class="w-8 h-8 bg-blue-600 rounded flex items-center justify-center text-white font-bold">A</div>
+                    <span class="text-xl font-black">ARDANA</span>
+                </div>
+                <p class="text-gray-400 max-w-sm">Agensi digital terkemuka di Jakarta, berdedikasi untuk membangun identitas digital yang kuat bagi bisnis Anda.</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Layanan</h4>
+                <ul class="space-y-4 text-gray-400 text-sm">
+                    <li><a href="#" class="hover:text-blue-600">Web Design</a></li>
+                    <li><a href="#" class="hover:text-blue-600">App Development</a></li>
+                    <li><a href="#" class="hover:text-blue-600">SEO Strategy</a></li>
+                    <li><a href="#" class="hover:text-blue-600">Social Media Ads</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6">Hubungi</h4>
+                <ul class="space-y-4 text-gray-400 text-sm">
+                    <li>Jakarta, Indonesia</li>
+                    <li>sales@asain.co.id</li>
+                    <li>+62 822-2443-4159</li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-[1400px] mx-auto flex flex-col md:row justify-between items-center pt-10 border-t border-gray-50 text-gray-400 text-[10px] font-black uppercase tracking-widest">
+            <p>© 2026 Ardana Digital. Semua Hak Dilindungi.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
