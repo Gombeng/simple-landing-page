@@ -3,76 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaaS Keren - Solusi Cerdas Bisnis Anda</title>
+    <title>ArdanaSaaS - Solusi Konstruksi Digital</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<body class="bg-[#F8F9FA] text-[#1A1A1A]">
 
-    <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-            <div class="text-2xl font-bold text-blue-600">ArdanaSaaS</div>
-            <div class="hidden md:flex space-x-8">
-                <a href="#fitur" class="hover:text-blue-600">Fitur</a>
-                <a href="#harga" class="hover:text-blue-600">Harga</a>
-                <a href="#kontak" class="hover:text-blue-600">Kontak</a>
+    <!-- Top Navigation -->
+    <nav class="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
+        <div class="flex items-center space-x-2">
+            <div class="w-10 h-10 bg-[#2563EB] rounded-lg flex items-center justify-center">
+                <span class="text-white font-bold text-xl">A</span>
             </div>
-            <a href="#harga" class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">Mulai Sekarang</a>
-        </nav>
-    </header>
+            <span class="text-2xl font-black tracking-tight">Ardana<span class="text-[#2563EB]">SaaS</span></span>
+        </div>
+        <div class="hidden md:flex items-center space-x-10 font-semibold text-gray-600">
+            <a href="#" class="hover:text-[#2563EB] transition">Layanan</a>
+            <a href="#" class="hover:text-[#2563EB] transition">Proyek</a>
+            <a href="#" class="hover:text-[#2563EB] transition">Tentang Kami</a>
+            <a href="#" class="hover:text-[#2563EB] transition">Kontak</a>
+        </div>
+        <button class="bg-[#1A1A1A] text-white px-6 py-3 rounded-full font-bold hover:bg-[#333] transition shadow-lg">
+            Hubungi Kami
+        </button>
+    </nav>
 
     <!-- Hero Section -->
-    <section class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <h1 class="text-5xl font-extrabold mb-6">Kelola Bisnis Anda Lebih <span class="text-blue-600">Cerdas</span></h1>
-            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">Platform all-in-one untuk membantu developer Indonesia menjual produk digital dengan mudah dan aman.</p>
-            <div class="flex justify-center space-x-4">
-                <a href="#harga" class="bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700">Coba Gratis</a>
-                <a href="#" class="border border-gray-300 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100">Pelajari Lebih Lanjut</a>
+    <main class="max-w-7xl mx-auto px-8 py-20 grid md:grid-cols-2 gap-12 items-center">
+        <div class="space-y-8">
+            <div class="inline-flex items-center space-x-2 bg-blue-50 px-4 py-2 rounded-full border border-blue-100">
+                <span class="relative flex h-3 w-3">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500"></span>
+                </span>
+                <span class="text-blue-700 font-bold text-sm tracking-wide uppercase">Inovasi Konstruksi 2025</span>
+            </div>
+            
+            <h1 class="text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight">
+                Membangun <br> Masa Depan <br> <span class="text-[#2563EB]">Digital.</span>
+            </h1>
+            
+            <p class="text-xl text-gray-500 max-w-lg leading-relaxed">
+                Platform manajemen proyek konstruksi paling modern di Indonesia. Pantau progres, biaya, dan tim dalam satu dashboard yang intuitif.
+            </p>
+            
+            <div class="flex items-center space-x-6">
+                <button class="bg-[#2563EB] text-white px-10 py-5 rounded-2xl font-bold text-lg hover:bg-blue-700 transition shadow-2xl shadow-blue-200">
+                    Mulai Sekarang
+                </button>
+                <button class="flex items-center space-x-3 group">
+                    <div class="w-14 h-14 rounded-full border-2 border-gray-200 flex items-center justify-center group-hover:border-[#2563EB] transition">
+                        <div class="w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-[#1A1A1A] border-b-[8px] border-b-transparent ml-1"></div>
+                    </div>
+                    <span class="font-bold text-lg">Tonton Demo</span>
+                </button>
+            </div>
+
+            <div class="pt-8 flex items-center space-x-8">
+                <div>
+                    <div class="text-3xl font-black italic">120+</div>
+                    <div class="text-sm font-bold text-gray-400 uppercase tracking-widest">Proyek Aktif</div>
+                </div>
+                <div class="h-10 w-[1px] bg-gray-200"></div>
+                <div>
+                    <div class="text-3xl font-black italic">98%</div>
+                    <div class="text-sm font-bold text-gray-400 uppercase tracking-widest">Kepuasan Client</div>
+                </div>
             </div>
         </div>
-    </section>
 
-    <!-- Pricing Section -->
-    <section id="harga" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Pilih Paket Anda</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                <!-- Paket Starter -->
-                <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-                    <h3 class="text-xl font-bold mb-4 text-center">Paket Starter</h3>
-                    <p class="text-4xl font-bold text-center mb-6">Rp 99.000<span class="text-lg font-normal text-gray-500">/bln</span></p>
-                    <ul class="space-y-4 mb-8">
-                        <li class="flex items-center">✅ 5 Produk Digital</li>
-                        <li class="flex items-center">✅ Integrasi Mayar</li>
-                        <li class="flex items-center">✅ Support WhatsApp</li>
-                    </ul>
-                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700">Pilih Paket</button>
+        <div class="relative">
+            <!-- Main Visual Placeholder (Simulating Figma Layout) -->
+            <div class="bg-white rounded-[3rem] p-4 shadow-2xl relative overflow-hidden aspect-[4/5] flex items-center justify-center">
+                <div class="absolute inset-0 bg-gradient-to-tr from-blue-50 to-white"></div>
+                <!-- UI Elements Decoration -->
+                <div class="absolute top-10 right-10 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 max-w-[200px]">
+                    <div class="w-10 h-10 bg-green-100 rounded-full mb-4 flex items-center justify-center text-green-600">✓</div>
+                    <div class="text-sm font-bold text-gray-400 mb-1">PROGRES PROYEK</div>
+                    <div class="text-xl font-black">92.4%</div>
                 </div>
-
-                <!-- Paket Pro -->
-                <div class="bg-white p-8 rounded-xl shadow-lg border-2 border-blue-600 relative">
-                    <span class="absolute top-0 right-0 bg-blue-600 text-white text-xs px-3 py-1 rounded-bl-lg font-bold">TERPOPULER</span>
-                    <h3 class="text-xl font-bold mb-4 text-center">Paket Pro</h3>
-                    <p class="text-4xl font-bold text-center mb-6">Rp 249.000<span class="text-lg font-normal text-gray-500">/bln</span></p>
-                    <ul class="space-y-4 mb-8">
-                        <li class="flex items-center">✅ Unlimited Produk</li>
-                        <li class="flex items-center">✅ Integrasi Stripe & Mayar</li>
-                        <li class="flex items-center">✅ Analitik Penjualan</li>
-                        <li class="flex items-center">✅ Prioritas Support</li>
-                    </ul>
-                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700">Pilih Paket</button>
+                <div class="absolute bottom-10 left-10 bg-white p-6 rounded-3xl shadow-xl border border-gray-50 flex items-center space-x-4">
+                    <div class="flex -space-x-3">
+                        <div class="w-10 h-10 rounded-full bg-blue-400 border-2 border-white"></div>
+                        <div class="w-10 h-10 rounded-full bg-blue-600 border-2 border-white"></div>
+                        <div class="w-10 h-10 rounded-full bg-gray-800 border-2 border-white"></div>
+                    </div>
+                    <div class="text-sm font-bold">+5 Tim Baru</div>
+                </div>
+                <div class="relative z-10 text-center">
+                     <div class="w-64 h-64 bg-blue-600 rounded-full blur-[80px] opacity-20 absolute -top-10 -left-10"></div>
+                     <img src="https://images.unsplash.com/photo-1503387762-592dea58ef21?auto=format&fit=crop&q=80&w=1000" alt="Construction Hero" class="relative z-20 rounded-[2.5rem] object-cover w-full h-full shadow-inner">
                 </div>
             </div>
         </div>
-    </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-10">
-        <div class="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; 2026 ArdanaSaaS. Dibuat dengan ❤️ di Jakarta.</p>
-        </div>
-    </footer>
+    <!-- Logo Cloud -->
+    <section class="max-w-7xl mx-auto px-8 py-10 opacity-40 grayscale flex flex-wrap justify-between items-center gap-8">
+        <span class="text-2xl font-black">ADHI KARYA</span>
+        <span class="text-2xl font-black">WIKA</span>
+        <span class="text-2xl font-black">WASKITA</span>
+        <span class="text-2xl font-black">PTPP</span>
+    </section>
 
 </body>
 </html>
